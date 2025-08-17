@@ -108,7 +108,7 @@ const Index = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <Icon name="Bike" size={32} className="text-primary" />
-              <h1 className="text-2xl font-bold text-card-foreground">BIKE RENTAL</h1>
+              <h1 className="text-2xl font-bold text-card-foreground">Здоровяк</h1>
             </div>
             <nav className="hidden md:flex items-center space-x-8">
               <a href="#catalog" className="text-muted-foreground hover:text-card-foreground transition-colors">Каталог</a>
@@ -125,7 +125,7 @@ const Index = () => {
       <section className="bg-gradient-to-br from-primary to-secondary text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-5xl font-bold mb-6 animate-fade-in">
-            Прокат велосипедов<br />и спортинвентаря
+            Спортивно-оздоровительный центр<br />«Здоровяк»
           </h2>
           <p className="text-xl mb-8 text-blue-100 max-w-2xl mx-auto animate-fade-in">
             Исследуйте город на качественных велосипедах. Удобное бронирование, доступные цены, отличный сервис.
@@ -372,10 +372,10 @@ const Index = () => {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Icon name="Bike" size={24} className="text-primary" />
-                <h4 className="text-lg font-bold">BIKE RENTAL</h4>
+                <h4 className="text-lg font-bold">Здоровяк</h4>
               </div>
               <p className="text-muted-foreground">
-                Лучший сервис проката велосипедов в городе. Качество, надежность, доступные цены.
+                Спортивно-оздоровительный центр с широким выбором инвентаря. Качество, надежность, доступные цены.
               </p>
             </div>
             <div>
@@ -415,7 +415,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t pt-8 mt-8 text-center text-muted-foreground">
-            <p>&copy; 2025 BIKE RENTAL. Все права защищены.</p>
+            <p>&copy; 2025 Спортивно-оздоровительный центр «Здоровяк». Все права защищены.</p>
           </div>
         </div>
       </footer>
