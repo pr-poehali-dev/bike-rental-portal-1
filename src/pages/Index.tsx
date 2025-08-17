@@ -13,7 +13,7 @@ const Index = () => {
       id: 1,
       name: 'Городской велосипед',
       type: 'Комфорт',
-      price: '500₽/день',
+      price: '250₽/день',
       rating: 4.8,
       reviews: 124,
       image: '/img/de01e660-3b39-44c3-bfd7-486492264dc3.jpg',
@@ -23,7 +23,7 @@ const Index = () => {
       id: 2,
       name: 'Горный велосипед',
       type: 'Спорт',
-      price: '800₽/день',
+      price: '250₽/день',
       rating: 4.9,
       reviews: 89,
       image: '/img/de01e660-3b39-44c3-bfd7-486492264dc3.jpg',
@@ -33,11 +33,31 @@ const Index = () => {
       id: 3,
       name: 'Электровелосипед',
       type: 'Электро',
-      price: '1200₽/день',
+      price: '250₽/день',
       rating: 4.7,
       reviews: 67,
       image: '/img/de01e660-3b39-44c3-bfd7-486492264dc3.jpg',
       features: ['Электромотор', '50км пробег', 'USB зарядка']
+    },
+    {
+      id: 4,
+      name: 'Лыжный комплект',
+      type: 'Лыжи',
+      price: '250₽/день',
+      rating: 4.6,
+      reviews: 52,
+      image: '/img/de01e660-3b39-44c3-bfd7-486492264dc3.jpg',
+      features: ['Лыжи + палки', 'Крепления', 'Ботинки в комплекте']
+    },
+    {
+      id: 5,
+      name: 'Фэтбайк',
+      type: 'Экстрим',
+      price: '250₽/день',
+      rating: 4.9,
+      reviews: 73,
+      image: '/img/de01e660-3b39-44c3-bfd7-486492264dc3.jpg',
+      features: ['Широкие покрышки', 'Зимняя резина', '18 скоростей']
     }
   ];
 
@@ -147,7 +167,7 @@ const Index = () => {
       <section id="catalog" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h3 className="text-3xl font-bold text-center mb-12 text-card-foreground">Наш каталог</h3>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-8">
             {bikes.map((bike, index) => (
               <Card key={bike.id} className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
                 <CardHeader className="p-0">
