@@ -16,7 +16,7 @@ const Index = () => {
       price: '250₽/день',
       rating: 4.8,
       reviews: 124,
-      image: '/img/de01e660-3b39-44c3-bfd7-486492264dc3.jpg',
+      image: '/img/c79a74c2-2d74-4925-adad-0b9d7d2d6db2.jpg',
       features: ['7 скоростей', 'Корзина', 'LED фары']
     },
     {
@@ -26,7 +26,7 @@ const Index = () => {
       price: '250₽/день',
       rating: 4.9,
       reviews: 89,
-      image: '/img/de01e660-3b39-44c3-bfd7-486492264dc3.jpg',
+      image: '/img/e4ed835a-40a8-4d8d-9314-82468cd9bead.jpg',
       features: ['21 скорость', 'Амортизация', 'Дисковые тормоза']
     },
     {
@@ -36,7 +36,7 @@ const Index = () => {
       price: '250₽/день',
       rating: 4.7,
       reviews: 67,
-      image: '/img/de01e660-3b39-44c3-bfd7-486492264dc3.jpg',
+      image: '/img/898cf9e2-308a-485d-a4d4-54a312e57621.jpg',
       features: ['Электромотор', '50км пробег', 'USB зарядка']
     },
     {
@@ -46,7 +46,7 @@ const Index = () => {
       price: '250₽/день',
       rating: 4.6,
       reviews: 52,
-      image: '/img/de01e660-3b39-44c3-bfd7-486492264dc3.jpg',
+      image: '/img/8994c58a-36b1-4909-9124-644fc9b0125e.jpg',
       features: ['Лыжи + палки', 'Крепления', 'Ботинки в комплекте']
     },
     {
@@ -56,7 +56,7 @@ const Index = () => {
       price: '250₽/день',
       rating: 4.9,
       reviews: 73,
-      image: '/img/de01e660-3b39-44c3-bfd7-486492264dc3.jpg',
+      image: '/img/a1c323b5-8023-4762-958e-377f3af4923f.jpg',
       features: ['Широкие покрышки', 'Зимняя резина', '18 скоростей']
     }
   ];
